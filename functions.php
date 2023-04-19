@@ -70,10 +70,3 @@ function getRandomPW($length, $includechar, $norepeat)
 }
 
 
-//genera pw di default per evitare il loop
-function getDefaultPW($arr)
-{
-    $randomdefault = '';
-    $randomdefault = implode("", $arr);
-    return str_shuffle($randomdefault);
-}

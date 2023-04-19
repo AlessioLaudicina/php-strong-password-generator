@@ -42,7 +42,8 @@ require_once __DIR__ . '/functions.php';
 </head>
 
 <body>
-    <h1 class="py-5">STRONG PASSWORD GENERATOR</h1>
+    <h1 class="py-5 text-center">STRONG PASSWORD GENERATOR</h1>
+    <h3 class="text-center">Genera una password sicura</h3>
     <div class="container flex-column py-5">
         <div class="row d-flex flex-column justify-content-center">
             <form action="index.php" method="GET">
